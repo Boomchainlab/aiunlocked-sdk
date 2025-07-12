@@ -1,83 +1,88 @@
-<a href="https://ai-sdk-starter-deepinfra.vercel.app">
-  <h1 align="center">Vercel x DeepInfra Chatbot</h1>
+<a href="https://aiunlocked-sdk.vercel.app">
+  <h1 align="center">🔓 AIUNLOCKED SDK</h1>
 </a>
 
 <p align="center">
-  An open-source AI chatbot app template built with Next.js, the AI SDK by Vercel, and DeepInfra.
+  A production-ready, extensible AI chatbot platform built with <strong>Next.js</strong>, <strong>Vercel AI SDK</strong>, and <strong>DeepInfra</strong>. 
 </p>
 
 <p align="center">
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running Locally</strong></a> ·
-  <a href="#authors"><strong>Authors</strong></a>
+  <a href="#🚀-features"><strong>🚀 Features</strong></a> ·
+  <a href="#📦-deploy-your-own"><strong>📦 Deploy Your Own</strong></a> ·
+  <a href="#💻-running-locally"><strong>💻 Running Locally</strong></a> ·
+  <a href="#🔐-secure-deployment-practices"><strong>🔐 Security</strong></a> ·
+  <a href="#👨‍💻-authors"><strong>👨‍💻 Authors</strong></a> ·
+  <a href="#📜-license"><strong>📜 License</strong></a>
 </p>
-<br/>
 
-## Features
+---
 
-- Streaming text responses powered by the [AI SDK by Vercel](https://sdk.vercel.ai/docs), allowing multiple AI providers to be used interchangeably with just a few lines of code.
-- Built-in tool integration for extending AI capabilities (demonstrated with a weather tool example).
-- Reasoning model support.
-- [shadcn/ui](https://ui.shadcn.com/) components for a modern, responsive UI powered by [Tailwind CSS](https://tailwindcss.com).
-- Built with the latest [Next.js](https://nextjs.org) App Router.
+## 🚀 Features
 
-## Deploy Your Own
+- 🔁 **Streaming Responses**: Powered by the [Vercel AI SDK](https://sdk.vercel.ai/docs) for seamless integration with multiple LLM providers.
+- 🛠️ **Tool Integrations**: Easily extend capabilities (includes a working weather tool example).
+- 🧠 **Model Flexibility**: Compatible with DeepInfra, OpenAI, and more.
+- 🎨 **Modern UI/UX**: Built with [shadcn/ui](https://ui.shadcn.com) and [Tailwind CSS](https://tailwindcss.com).
+- 🔗 **Vercel-Optimized**: Zero-config deployment with edge functions and App Router support.
+- 🧩 **Modular Architecture**: Plug-and-play components for fast iteration and innovation.
 
-You can deploy your own version to Vercel by clicking the button below:
+---
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?project-name=Vercel+x+DeepInfra+Chatbot&repository-name=ai-sdk-starter-deepinfra&repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-starter-deepinfra&demo-title=Vercel+x+Deepinfra+Chatbot&demo-url=https%3A%2F%2Fai-sdk-starter-deepinfra.vercel.app%2F&demo-description=A+simple+chatbot+application+built+with+Next.js+that+uses+DeepInfra+via+the+AI+SDK+and+the+Vercel+Marketplace&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22deepinfra%22%2C%22productSlug%22%3A%22api-token%22%2C%22protocol%22%3A%22ai%22%7D%5D)
+## 📦 Deploy Your Own
 
-## Running Locally
+Deploy a live version instantly via Vercel:
 
-1. Clone the repository and install dependencies:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Boomchainlab/aiunlocked-sdk&project-name=aiunlocked-sdk&repository-name=aiunlocked-sdk&demo-title=AIUNLOCKED+Chatbot&demo-url=https%3A%2F%2Faiunlocked-sdk.vercel.app&demo-description=A+modern+AI+chatbot+powered+by+Vercel+SDK+and+DeepInfra&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22deepinfra%22%2C%22productSlug%22%3A%22api-token%22%2C%22protocol%22%3A%22ai%22%7D%5D)
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
+---
 
-2. Install the [Vercel CLI](https://vercel.com/docs/cli):
+## 💻 Running Locally
 
-   ```bash
-   npm i -g vercel
-   # or
-   yarn global add vercel
-   # or
-   pnpm install -g vercel
-   ```
+### 1. Clone the Repository
 
-   Once installed, link your local project to your Vercel project:
+```bash
+git clone https://github.com/Boomchainlab/aiunlocked-sdk.git
+cd aiunlocked-sdk
 
-   ```bash
-   vercel link
-   ```
 
-   After linking, pull your environment variables:
+2. Install Dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
 
-   ```bash
-   vercel env pull
-   ```
 
-   This will create a `.env.local` file with all the necessary environment variables.
+3. Add Environment Variables
 
-3. Run the development server:
+Create a .env.local file in the root directory:
+DEEPINFRA_API_KEY=your_deepinfra_api_key
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
+4. Start the Dev Server
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 
-4. Open [http://localhost:3000](http://localhost:3000) to view your new AI chatbot application.
+Then open http://localhost:3000 in your browser.
 
-## Authors
 
-This repository is maintained by the [Vercel](https://vercel.com) team and community contributors.
+🔐 Secure Deployment Practices
+	•	🔑 Do not hard-code your API keys in the repo.
+	•	🌐 Use Vercel’s Environment Variables dashboard for production secrets.
+	•	🔁 Rotate keys periodically from DeepInfra/OpenAI dashboards.
+	•	🧪 Use .env.example to guide contributors.
 
-Contributions are welcome! Feel free to open issues or submit pull requests to enhance functionality or fix bugs.
+
+👨‍💻 Authors
+
+AIUNLOCKED SDK is adapted from the official Vercel Labs AI SDK Starter, customized and extended by:
+	•	Boomchainlab
+	•	DeepInfra
+	•	Vercel AI SDK
+
+🧠 Unlock Possibilities
+
+“The future isn’t just AI — it’s AI you control.”
+— AIUNLOCKED Team
