@@ -3,16 +3,16 @@
 </a>
 
 <p align="center">
-  A production-ready, extensible AI chatbot platform built with <strong>Next.js</strong>, <strong>Vercel AI SDK</strong>, and <strong>DeepInfra</strong>. 
+  A production-ready, extensible AI chatbot platform built with <strong>Next.js</strong>, <strong>Vercel AI SDK</strong>, and <strong>DeepInfra</strong>.
 </p>
 
 <p align="center">
-  <a href="#🚀-features"><strong>🚀 Features</strong></a> ·
-  <a href="#📦-deploy-your-own"><strong>📦 Deploy Your Own</strong></a> ·
-  <a href="#💻-running-locally"><strong>💻 Running Locally</strong></a> ·
-  <a href="#🔐-secure-deployment-practices"><strong>🔐 Security</strong></a> ·
-  <a href="#👨‍💻-authors"><strong>👨‍💻 Authors</strong></a> ·
-  <a href="#📜-license"><strong>📜 License</strong></a>
+  <a href="#-features"><strong>🚀 Features</strong></a> ·
+  <a href="#-deploy-your-own"><strong>📦 Deploy Your Own</strong></a> ·
+  <a href="#-running-locally"><strong>💻 Running Locally</strong></a> ·
+  <a href="#-secure-deployment-practices"><strong>🔐 Security</strong></a> ·
+  <a href="#-authors"><strong>👨‍💻 Authors</strong></a> ·
+  <a href="#-license"><strong>📜 License</strong></a>
 </p>
 
 ---
@@ -32,7 +32,11 @@
 
 Deploy a live version instantly via Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Boomchainlab/aiunlocked-sdk&project-name=aiunlocked-sdk&repository-name=aiunlocked-sdk&demo-title=AIUNLOCKED+Chatbot&demo-url=https%3A%2F%2Faiunlocked-sdk.vercel.app&demo-description=A+modern+AI+chatbot+powered+by+Vercel+SDK+and+DeepInfra&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22deepinfra%22%2C%22productSlug%22%3A%22api-token%22%2C%22protocol%22%3A%22ai%22%7D%5D)
+<p align="center">
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/Boomchainlab/aiunlocked-sdk&project-name=aiunlocked-sdk&repository-name=aiunlocked-sdk&demo-title=AIUNLOCKED+Chatbot&demo-url=https%3A%2F%2Faiunlocked-sdk.vercel.app&demo-description=A+modern+AI+chatbot+powered+by+Vercel+SDK+and+DeepInfra&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22deepinfra%22%2C%22productSlug%22%3A%22api-token%22%2C%22protocol%22%3A%22ai%22%7D%5D">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel" />
+  </a>
+</p>
 
 ---
 
@@ -42,8 +46,7 @@ Deploy a live version instantly via Vercel:
 
 ```bash
 git clone https://github.com/Boomchainlab/aiunlocked-sdk.git
-cd aiunlocked-sdk
-
+cd aiunlocked-sdkp
 
 2. Install Dependencies
 npm install
